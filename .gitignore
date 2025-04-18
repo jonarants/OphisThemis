@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+pip-log.txt
+pip-delete-this.directory.txt
+.pytest_cache./
+htmlcov/
+.tox/
+*.egg-info/
+dist/
+build/
+eggs/
+PKG-INFO
+
+# Docker
+*.log
+!Dockerfile
+!docker/nginx.cong
+
+# Windows files
+Thumbs.db
+$RECYCLE.BIN/
+System Volume Information/
+*.lnk
+
+# IDE y Editores
+.vscode/
+
+# Otros
+temp/
+tmp/
